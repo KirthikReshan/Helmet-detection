@@ -1,0 +1,16 @@
+ultralytics==8.1.0          # YOLOv8 core
+torch==2.2.2                # Backend for YOLO & EasyOCR
+torchvision                 # Required for vision models
+torchaudio                  # For completeness with torch
+
+opencv-python==4.8.0.76     # Video frame processing
+easyocr==1.7.1              # Number plate OCR
+
+pandas==2.2.1               # Logging & CSV
+numpy                       # Needed for all ML & image ops
+matplotlib                  # Plotting (optional, but useful)
+scikit-learn                # ML features if needed (e.g. violation scoring)
+
+pyttsx3                     # (Optional) Voice alerts
+playsound                   # (Optional) Custom sound alerts
+python-dotenv               # (Optional) If you store secrets/configs
